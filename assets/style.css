@@ -151,13 +151,11 @@ box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  
+  align-items: stretch;
   
   
 }
-.enquiry img{
- transform: translateY(0.3rem);
-}
+
 .list-container .listing .enquiry img {
   width: 1rem;
   margin-right: 0.5rem;
