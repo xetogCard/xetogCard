@@ -243,10 +243,11 @@ margin-top: 5rem;
 
 @media screen and (min-width: 900px) {
   .listings {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+     display: flex;
+    justify-content: center;
+    max-width: 400px;
+    align-items: center;
+    margin: auto;
   }
   .listings .listing {
     max-width: 100%;
